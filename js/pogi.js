@@ -28,13 +28,13 @@ var app = angular.module('myApp', [
 // ])
 .config(function($routeProvider, $locationProvider, $mdThemingProvider) {
   $routeProvider.when('/', {
-      templateUrl: "home.php"
+      templateUrl: "home.html"
   });
   $routeProvider.when('/categories', {
-    templateUrl: 'categories.php'
+    templateUrl: 'categories.html'
   });
   $routeProvider.when('/settings', {
-    templateUrl: 'settings.php'
+    templateUrl: 'settings.html'
   });
 });
 
